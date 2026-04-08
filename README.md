@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white" /></a>
-  <a href="https://fawnliu.github.io/GenSplat"><img src="https://img.shields.io/badge/Project-Page-blue?logo=googlechrome&logoColor=white" /></a>
+  <a href="https://fawnliu.github.io/project/gensplat/index.html"><img src="https://img.shields.io/badge/Project-Page-blue?logo=googlechrome&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/CVPR-2026-green" />
 </p>
 
@@ -28,13 +28,6 @@ Unlike previous methods that either achieve cross-scene generalization by being 
 Progressive Language Grounding Curriculum that structurally guides the model through learning category-level semantics to instance-level concepts and free-form language, preventing overfitting by building a generalizable language feature space.
 MLLM-guided Reasoning Module that leverages Multi-modal Large Language Models' semantic and spatial priors to enhance 3D localization and reasoning.
 Extensive cross-task evaluations — including 3D referring segmentation, 3D visual question answering, and 3D open-vocabulary understanding — demonstrate state-of-the-art performances and strong generalization capability.
-
-## TODO
-
-- [ ] Release inference code
-- [ ] Release training code
-- [ ] Release pre-trained model weights
-- [ ] Release evaluation scripts
 
 ## Usage
 
