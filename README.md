@@ -24,10 +24,7 @@
 
 ## Abstract
 
-Unlike previous methods that either achieve cross-scene generalization by being bounded to a predefined vocabulary or handle free-form language by overfitting to individual scenes, **GenSplat** is robust to free-form language queries and generalizable across 3DGS scene representations. Our key insight is to formulate a structured learning process to progressively align linguistic concepts with 3D Gaussians. It contains two novel technical contributions:
-Progressive Language Grounding Curriculum that structurally guides the model through learning category-level semantics to instance-level concepts and free-form language, preventing overfitting by building a generalizable language feature space.
-MLLM-guided Reasoning Module that leverages Multi-modal Large Language Models' semantic and spatial priors to enhance 3D localization and reasoning.
-Extensive cross-task evaluations — including 3D referring segmentation, 3D visual question answering, and 3D open-vocabulary understanding — demonstrate state-of-the-art performances and strong generalization capability.
+Unlike previous methods that either achieve cross-scene generalization by being bounded to a predefined vocabulary or handle free-form language by overfitting to individual scenes, **GenSplat** is robust to free-form language queries and generalizable across 3DGS scene representations. Our key insight is to formulate a structured learning process to progressively align linguistic concepts with 3D Gaussians. It contains two novel technical contributions: Progressive Language Grounding Curriculum that structurally guides the model through learning category-level semantics to instance-level concepts and free-form language, preventing overfitting by building a generalizable language feature space. MLLM-guided Reasoning Module that leverages Multi-modal Large Language Models' semantic and spatial priors to enhance 3D localization and reasoning. Extensive cross-task evaluations — including 3D referring segmentation, 3D visual question answering, and 3D open-vocabulary understanding — demonstrate state-of-the-art performances and strong generalization capability.
 
 ## Usage
 
@@ -36,20 +33,11 @@ Code will be released soon. Stay tuned!
 ## Citation
 
 If you find this work useful, please consider citing:
-<!-- 
 ```bibtex
 @inproceedings{liu2026gensplat,
-  title     = {GenSplat: Bridging the Generalization Gap in 3DGS Language Comprehension},
-  author    = {Liu, Fang and Liu, Yuhao and Xu, Ke and Hancke, Gerhard Petrus and Lau, Rynson W.H.},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year      = {2026}
+  title={GenSplat: Bridging the Generalization Gap in 3DGS Language Comprehension},
+  author={Liu, Fang and Liu, Yuhao and Xu, Ke and Hancke, Gerhard Petrus and Lau, Rynson WH},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5221--5231},
+  year={2026}
 }
-``` -->
-
-<!-- ## Acknowledgments
-
-This work was supported by City University of Hong Kong. -->
-<!-- 
-## License
-
-This project is released under the [Apache 2.0 License](LICENSE). -->
